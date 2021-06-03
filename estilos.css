@@ -1,0 +1,41 @@
+table{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    border:pink 1px solid ;
+    width: 100%;
+    margin:0;
+    padding: 0;
+    border-collapse: collapse;
+    border-spacing:0;
+  
+}
+table tr{
+    border: pink 5px solid;
+    padding: 5px;
+}
+table td{
+    border:pink 5px solid;
+}
+@media screen  and (max-width: 430px){
+    table{
+        border:0;
+    }
+    table tr{
+        margin-bottom: 10px;
+        display:block;
+        border-bottom: 16px;
+
+    }
+    table td{
+        display: block;
+        font-size: 16px;
+        border-bottom:1px dotted; 
+    }
+    table td{
+    border-bottom: 0;
+    }
+
+    
+}
+
+
